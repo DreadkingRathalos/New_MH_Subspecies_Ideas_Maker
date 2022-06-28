@@ -3,9 +3,17 @@ Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Pi
 if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
     Monster=input('Rathian, Rathalos, Basrios,Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelguese, Espinas')
     if(Monster == 'Rathian'):
-            print('Monster: Rathian, Elements: Fire, Aliments: Fireblight, Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+            Apex=input('Regular, Apex')
+            if(Apex == 'Regular'):
+                print('Monster: Rathian, Elements: Fire, Aliments: Fireblight, Poison, Severe Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+            if(Apex == 'Apex'):
+                print('Monster: Apex Rathian, Elements: Fire, Aliments: Fireblight, Poison, Severe Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')    
     if(Monster == 'Rathalos'):
-            print('Monster: Rathalos, Elements: Fire, Aliments: Fireblight, Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+            Apex=input('Regular, Apex')
+            if(Apex == 'Regular'):
+                print('Monster: Rathalos, Elements: Fire, Aliments: Fireblight, Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+            if(Apex == 'Apex'):
+                print('Monster: Apex Rathalos, Elements: Fire, Aliments: Fireblight, Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')    
     if(Monster == 'Basrios'):
             print('Monster: Basrios, Elements: Fire, Aliments: Fireblight, Poison, Sleep, Weaknesses: Water, Breakable Parts: Head, Back, Wings, and tail')
     if(Monster == 'Khezu'):
@@ -15,7 +23,11 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
     if(Monster == 'Tigrex'):
             print('Monster: Tigrex, Elements: None, Aliments: None, Weaknesses: Thunder, Breakable Parts: Head, Back, Wings, and tail')
     if(Monster == 'Diablos'):
-            print('Monster: Diablos, Elements: None, Aliments: None, Weaknesses: Ice, Breakable Parts: Head, Back, and tail')
+            Apex=input('Regular, Apex')
+            if(Apex == 'Regular'):
+                print('Monster: Diablos, Elements: None, Aliments: None, Weaknesses: Ice, Breakable Parts: Head, Back, and tail')
+            if(Apex == 'Apex'):
+                print('Monster: Apex Diablos, Elements: None, Aliments: None, Weaknesses: Ice, Breakable Parts: Head, Back, and tail')
     if(Monster == 'Barioth'):
             print('Monster: Barioth, Elements: Ice, Aliments: Iceblight, Weaknesses: Fire, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Bazelguese'):
@@ -34,8 +46,8 @@ if(Monster_Class == 'Fanged Wyvern'or Monster_Class in 'Fanged'):
             Apex=input('Regular, Apex')
             if(Apex == 'Regular'):
                 print('Monster: Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
-            if(Apex == 'Regular')
-                print('Monster: Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
+            if(Apex == 'Apex'):
+                print('Monster: Apex Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
     if(Monster == 'Magnamalo'):
             print('Monster: Magnamalo, Elements: None, Aliments: Blast-Fireblight, Weaknesses: Water, Breakable Parts: Head, Back, Scutes, and tail')
 if(Monster_Class == 'Brute Wyvern' or Monster_Class in 'Brute'):
@@ -66,9 +78,9 @@ if(Monster_Class == 'Levianths'):
     Monster=input('Mizutsune, Somnacanth, Royal Ludroth, Almudron')
     if(Monster == 'Mizutsune'):
         Apex=input('Regular, Apex')
-        if(Apex == 'Regular')
+        if(Apex == 'Regular'):
             print('Monster: Mizutsune, Elements: Water, Aliments: Waterblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
-        if(Apex == 'Apex')
+        if(Apex == 'Apex'):
             print('Monster: Apex Mizutsune, Elements: Water, Aliments: Waterblight, Fire-Blastblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
     if(Monster == 'Somnacanth'):
         print('Monster: Somnacanth, Elements: None, Aliments: Sleep, Weaknesses: Thunder, Breakable Parts: Head, Arms, and tail')
@@ -84,9 +96,9 @@ if(Monster_Class == 'Fanged Beasts'or Monster_Class in 'Beasts'):
             print('Monster: Bishaten, Elements: None, Aliments: Paralysis, Poison, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Arzuros'):
         Apex=input('Regular, Apex')
-        if(Apex == 'Regular')
-            print('Monster: Arzuros, Elements: None, Aliments: None, Weaknesses: Fire, Breakable Parts: Arms'
-        if(Apex == 'Apex')
+        if(Apex == 'Regular'):
+            print('Monster: Arzuros, Elements: None, Aliments: None, Weaknesses: Fire, Breakable Parts: Arms')
+        if(Apex == 'Apex'):
             print('Monster: Apex Arzuros, Elements: None, Aliments: None, Weaknesses: Ice, Breakable Parts: Arms')
     if(Monster == 'Lagombi'):
             print('Monster: Lagombi, Elements: Ice, Aliments: Iceblight, Weaknesses: Fire, Breakable Parts: Head, and Belly')
@@ -99,9 +111,13 @@ if(Monster_Class == 'Amphians'):
     if(Monster == 'Tetradon'):
             print('Monster: Tetradon, Elements: Water, Aliments: Waterblight, Weaknesses: , Breakable Parts: Head, and Arms')
 if(Monster_Class == 'Carapaceons'):
-    Monster=input('')
+    Monster=input('Daimyo Hermitaur, Shogun Ceanataur')
+    if(Monster == 'Daimyo Hermitaur'):
+        print('Monster: Daimyo Hermitaur, Elements: Water, Aliments: None, Weaknesses: Ice, Breakable Parts: Arms and Shell')
+    if(Monster == 'Shogun Ceanataur'):
+        print('Monster: Shogun Ceanataur, Elements: None, Aliments: Bleeding, Weaknesses: Ice, Breakable Parts: Arms, and Shell')
 if(Monster_Class == 'Elder Dragons'):
-    Monster=input('Chameleos, Kushala Doara, Teostra, Ibushi, Narwa, Crimson Glow Valstrax')
+    Monster=input('Chameleos, Kushala Doara, Teostra, Ibushi, Narwa, Crimson Glow Valstrax, Shaguru Magala, Malzeno')
     if(Monster == 'Chameleos'):
         print('Monster: Chameleos, Elements: None, Aliments: Poison, Severe Poison, Weaknesses: Fire, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Kushala Doara' or Monster in 'Kushala'):
@@ -109,15 +125,17 @@ if(Monster_Class == 'Elder Dragons'):
     if(Monster == 'Teostra'):
         print('Monster: Teostra, Elements: Fire, Aliments: Fireblight, Blastblight, Weaknesses: Water/Ice, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Ibushi'):
-        print('Monster: Ibushi, Elements: Fire, Aliments: Fireblight, Blastblight, Weaknesses: Water/Ice, Breakable Parts: Head, Wings, and tail')
+        print('Monster: Wind Serpent Ibushi, Elements: Fire, Aliments: Fireblight, Blastblight, Weaknesses: Water/Ice, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Narwa'):
         Subspecies=input('Narwa, Allmother Narwa')
         if(Subspecies == 'Narwa'):  
-            print('Monster: Narwa, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
+            print('Monster: Thunder Serpent Narwa, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
         if(Subspecies == 'Allmother Narwa'):
-            print('Monster: Narwa, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
+            print('Monster: Narwa the Allmother, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Crimson Glow Valstrax' or Monster in 'Valstrax'):
         print('Monster: Crimson Glow Valstrax, Elements: Dragon, Aliments: Dragonblight, Weaknesses: Fire/Water/Thunder/Ice, Breakable Parts: Head, Wings, Back and tail')
+    if(Monster == 'Shaguru Magala' or Monster in Shaguru):
+            print('Monster: Shaguru Magala, Elements: None, Aliments: Frenzy, Weaknesses: Dragon, Breakable Parts: Head, Wingarms, and tail')
 if(Monster_Class == 'Others'):
     Monster=input('Gore Magala')
     if(Monster == 'Gore Magala'):
