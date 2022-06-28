@@ -31,7 +31,11 @@ if(Monster_Class == 'Fanged Wyvern'or Monster_Class in 'Fanged'):
     if(Monster == 'Tobi-Kadachi'):
             print('Monster: Tobi-Kadachi, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Water, Breakable Parts: Head, Back, and tail')
     if(Monster == 'Zinogre'):
-            print('Monster: Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
+            Apex=input('Regular, Apex')
+            if(Apex == 'Regular'):
+                print('Monster: Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
+            if(Apex == 'Regular')
+                print('Monster: Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
     if(Monster == 'Magnamalo'):
             print('Monster: Magnamalo, Elements: None, Aliments: Blast-Fireblight, Weaknesses: Water, Breakable Parts: Head, Back, Scutes, and tail')
 if(Monster_Class == 'Brute Wyvern' or Monster_Class in 'Brute'):
@@ -56,15 +60,16 @@ if(Monster_Class == 'Bird Wyvern' or Monster_Class in 'Bird'):
             print('Monster: Pukei-Pukei, Elements: None, Aliments: None, Weaknesses: , Breakable Parts: Head, Wings, and Tail')
 if(Monster_Class == 'Piscine Wyvern'or Monster_Class in 'Piscine'):
     Monster=input('Jytordus')
-    if(Monster == 'Jytordus'):
-        print('Monster: Jytordus, Elements: Water, Aliments: Waterblight, Weaknesses: Water (Mud)/Thunder (No Mud), Breakable Parts: Head, Back, and tail')
+    if(Monster == 'Jyuratodus'):
+        print('Monster: Jyuratodus, Elements: Water, Aliments: Waterblight, Weaknesses: Water (Mud)/Thunder (No Mud), Breakable Parts: Head, Back, and tail')
 if(Monster_Class == 'Levianths'):
-    Monster=input('Mitzune, Somnacanth, Royal Ludroth, Almudron')
-    if(Monster == 'Mitzune'):
+    Monster=input('Mizutsune, Somnacanth, Royal Ludroth, Almudron')
+    if(Monster == 'Mizutsune'):
         Apex=input('Regular, Apex')
         if(Apex == 'Regular')
-            print('Monster: Mitzune, Elements: Water, Aliments: Waterblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
+            print('Monster: Mizutsune, Elements: Water, Aliments: Waterblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
         if(Apex == 'Apex')
+            print('Monster: Apex Mizutsune, Elements: Water, Aliments: Waterblight, Fire-Blastblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
     if(Monster == 'Somnacanth'):
         print('Monster: Somnacanth, Elements: None, Aliments: Sleep, Weaknesses: Thunder, Breakable Parts: Head, Arms, and tail')
     if(Monster == 'Royal Ludroth'):
