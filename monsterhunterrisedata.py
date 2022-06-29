@@ -5,9 +5,9 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
     if(Monster == 'Rathian'):
             Apex=input('Regular, Apex')
             if(Apex == 'Regular'):
-                print('Monster: Rathian, Elements: Fire, Aliments: Fireblight, Poison, Severe Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+                print('Monster: Rathian, Elements: Fire, Aliments: Fireblight, Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
             if(Apex == 'Apex'):
-                print('Monster: Apex Rathian, Elements: Fire, Aliments: Fireblight, Poison, Severe Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')    
+                print('Monster: Apex Rathian, Elements: Fire, Aliments: Fireblight, Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')    
     if(Monster == 'Rathalos'):
             Apex=input('Regular, Apex')
             if(Apex == 'Regular'):
@@ -95,7 +95,7 @@ if(Monster_Class == 'Levianths'):
     if(Monster == 'Almudron'):
         Subspecies=input('Base or Magma')
         if(Subspecies == 'Base'):
-            print('Monster: Almudron, Elements: Water, Aliments: Waterblight, Weaknesses: , Breakable Parts: Head, Back, and tail')
+            print('Monster: Almudron, Elements: Water, Aliments: Waterblight,Muddy, Weaknesses: , Breakable Parts: Head, Back, and tail')
         if(Subspecies == 'Magma'):
             print('Monster: Magma Almudron, Elements: Fire, Aliments: Fireblight, Weaknesses: , Breakable Parts: Head, Wings, and tail')
 if(Monster_Class == 'Fanged Beasts'or Monster_Class in 'Beasts'):
