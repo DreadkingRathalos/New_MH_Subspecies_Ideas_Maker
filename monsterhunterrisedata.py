@@ -55,7 +55,7 @@ if(Monster_Class == 'Brute Wyvern' or Monster_Class in 'Brute'):
     if(Monster == 'Barroth'):
             print('Monster: Barroth, Elements: Water, Aliments: Waterblight, Weaknesses: Water(Mud) Fire(No Mud), Breakable Parts: Head, Back, Arms, and tail')
     if(Monster == 'Anjanath'):
-            print('Monster: Anjanath, Elements: Fire, Aliments: Fireblight, Weaknesses: Water, Breakable Parts: Head, Sail, and tail')
+            print('Monster: Anjanath, Elements: Fire, Aliments: Fireblight, Weaknesses: Water, Breakable Parts: Head, Legs, and tail')
 if(Monster_Class == 'Bird Wyvern' or Monster_Class in 'Bird'):
     Monster=input('Great Izuchi, Great Baggi, Great Wroggi, Kulu-Ya-Ku, Aknosom, Pukei-Pukei')
     if(Monster == 'Great Izuchi'):
@@ -83,17 +83,29 @@ if(Monster_Class == 'Levianths'):
         if(Apex == 'Apex'):
             print('Monster: Apex Mizutsune, Elements: Water, Aliments: Waterblight, Fire-Blastblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
     if(Monster == 'Somnacanth'):
-        print('Monster: Somnacanth, Elements: None, Aliments: Sleep, Weaknesses: Thunder, Breakable Parts: Head, Arms, and tail')
+        Subspecies=input('Base or ')
+        if(Subspecies == 'Base'):
+            print('Monster: Somnacanth, Elements: None, Aliments: Sleep, Weaknesses: Thunder, Breakable Parts: Head, Arms, and tail')
+        if(Subspecies == ''):
+            print('Monster: Somnacanth, Elements: None, Aliments: Sleep, Weaknesses: Thunder, Breakable Parts: Head, Arms, and tail')
     if(Monster == 'Royal Ludroth'):
         print('Monster: Royal Ludroth, Elements: Water, Aliments: Waterblight, Weaknesses: Fire, Breakable Parts: Head, Creat, and tail')
     if(Monster == 'Almudron'):
-        print('Monster: Almudron, Elements: , Aliments: , Weaknesses: , Breakable Parts: Head, Wings, and tail')
+        Subspecies=input('Base or Magma')
+        if(Subspecies == 'Base'):
+            print('Monster: Almudron, Elements: Water, Aliments: Waterblight, Weaknesses: , Breakable Parts: Head, Back, and tail')
+        if(Subspecies == 'Magma'):
+            print('Monster: Magma Almudron, Elements: Fire, Aliments: Fireblight, Weaknesses: , Breakable Parts: Head, Wings, and tail')
 if(Monster_Class == 'Fanged Beasts'or Monster_Class in 'Beasts'):
     Monster=input('Rajang, Bishaten, Azurios, Lagombi, Volvidon, Goss Harag')
     if(Monster == 'Rajang'):
             print('Monster: Rajang, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Arms, and tail')
     if(Monster == 'Bishaten'):
-            print('Monster: Bishaten, Elements: None, Aliments: Paralysis, Poison, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
+        Subspecies=input('Base or ')
+        if(Subspecies == 'Base'):
+                print('Monster: Bishaten, Elements: None, Aliments: Paralysis, Poison, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
+        if(Subspecies == 'Blood Orange' or Subspecies in 'Blood Orange'):
+                print('Monster: Blood Orange Bishaten, Elements: None, Aliments: Paralysis, Poison, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Arzuros'):
         Apex=input('Regular, Apex')
         if(Apex == 'Regular'):
@@ -127,10 +139,10 @@ if(Monster_Class == 'Elder Dragons'):
     if(Monster == 'Ibushi'):
         print('Monster: Wind Serpent Ibushi, Elements: Fire, Aliments: Fireblight, Blastblight, Weaknesses: Water/Ice, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Narwa'):
-        Subspecies=input('Narwa, Allmother Narwa')
-        if(Subspecies == 'Narwa'):  
+        Variant=input('Narwa, Allmother Narwa')
+        if(Variant == 'Narwa'):  
             print('Monster: Thunder Serpent Narwa, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
-        if(Subspecies == 'Allmother Narwa'):
+        if(Variant == 'Allmother Narwa'):
             print('Monster: Narwa the Allmother, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Crimson Glow Valstrax' or Monster in 'Valstrax'):
         print('Monster: Crimson Glow Valstrax, Elements: Dragon, Aliments: Dragonblight, Weaknesses: Fire/Water/Thunder/Ice, Breakable Parts: Head, Wings, Back and tail')
