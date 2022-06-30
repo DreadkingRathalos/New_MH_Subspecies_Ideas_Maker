@@ -82,7 +82,7 @@ if(Monster_Class == 'Bird Wyvern' or Monster_Class in 'Bird'):
     if(Monster == 'Pukei-Pukei'):
             print('Monster: Pukei-Pukei, Elements: None, Aliments: None, Weaknesses: Thunder, Breakable Parts: Head, Wings, and Tail')
 if(Monster_Class == 'Piscine Wyvern'or Monster_Class in 'Piscine'):
-    Monster=input('Jytordus')
+    Monster=input('Jyuratodus')
     if(Monster == 'Jyuratodus'):
         print('Monster: Jyuratodus, Elements: Water, Aliments: Waterblight, Muddy, Weaknesses: Water (Mud)/Thunder (No Mud), Breakable Parts: Head, Back, and tail')
 if(Monster_Class == 'Levianths'):
