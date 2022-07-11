@@ -38,7 +38,7 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
         if(Variant == 'Seething'):
             print('Monster: Seething Bazelgeuse, Elements: Fire, Aliments: Fireblight, Weaknesses: Ice, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Espinas'):
-            print('Monster: Espinas, Elements: Fire, Aliments: Fireblight, Poison, Paralysis, Weaknesses: Ice, Breakable Parts: Head, Back,, Belly, Wings, and tail')
+            print('Monster: Espinas, Elements: Fire, Aliments: Fireblight, Poison, Paralysis, Weaknesses: Ice, Breakable Parts: Head, Back, Belly, Wings, and tail')
     if(Monster == 'Seregios'):
             print('Monster: Seregios, Elements: None, Aliments: Bleeding, Weaknesses: Thunder, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Astalos'):
