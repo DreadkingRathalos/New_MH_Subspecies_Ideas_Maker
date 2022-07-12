@@ -19,8 +19,11 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
             print('Monster: Basrios, Elements: Fire, Aliments: Fireblight, Poison, Sleep, Weaknesses: Water, Breakable Parts: Head, Back, Wings, and tail')
     if(Monster == 'Khezu'):
             print('Monster: Khezu, Elements: Thunder, Aliments: Thunderblight, Paralysis, Weaknesses: Fire, Breakable Parts: Head, Body, and Legs')
-    if(Monster == 'Nargacuga'):
-            print('Monster: Nargacuga, Elements: Thunder, Aliments: None, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
+    if(Monster == 'Nargacuga'):Variant=input('Nargacuga, Lucent')
+        if(Variant == 'Nargacuga'):
+            print('Monster: Nargacuga, Elements: None, Aliments: None, Weaknesses: Thunder, Breakable Parts: Head, Wings, and tail')
+        if(Variant == 'Lucent Nargacuga' or Variant in 'Lucent'):
+            print('Monster: Lucent Nargacuga, Elements: None, Aliments: Poison, Weaknesses: Thunder, Breakable Parts: Head, Wings, and tail')
     if(Monster == 'Tigrex'):
             print('Monster: Tigrex, Elements: None, Aliments: None, Weaknesses: Thunder, Breakable Parts: Head, Back, Wings, and tail')
     if(Monster == 'Diablos'):
