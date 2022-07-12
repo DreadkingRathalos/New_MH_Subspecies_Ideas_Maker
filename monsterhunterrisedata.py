@@ -7,14 +7,18 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
             Apex=input('Base, Apex')
             if(Apex == 'Base'):
                 print('Monster: Rathian, Elements: Fire, Aliments: Fireblight, Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+                print('Rare Materials: Rathian Plate, Rathian Ruby, Rathian Mantle')
             if(Apex == 'Apex'):
                 print('Monster: Apex Rathian, Elements: Fire, Aliments: Fireblight, Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')    
+                print('Rare Materials: Rathian Plate, Rathian Ruby')
     if(Monster == 'Rathalos'):
             Apex=input('Base, Apex')
             if(Apex == 'Base'):
                 print('Monster: Rathalos, Elements: Fire, Aliments: Fireblight, Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+                print('Rare Materials: Rathalos Plate, Rathalos Ruby, Rathalos Mantle')
             if(Apex == 'Apex'):
                 print('Monster: Apex Rathalos, Elements: Fire, Aliments: Fireblight, Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
+                print('Rare Materials: Rathalos Plate, Rathalos Ruby')
     if(Monster == 'Basrios'):
             print('Monster: Basrios, Elements: Fire, Aliments: Fireblight, Poison, Sleep, Weaknesses: Water, Breakable Parts: Head, Back, Wings, and tail')
     if(Monster == 'Khezu'):
@@ -54,12 +58,15 @@ if(Monster_Class == 'Fanged Wyvern'or Monster_Class in 'Fanged'):
             Apex=input('Base, Apex')
             if(Apex == 'Base'):
                 print('Monster: Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
+                print('Rare Materials: Zinogre Plate, Zinogre Ruby, Zinogre Mantle')
             if(Apex == 'Apex'):
-                print('Monster: Apex Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')
+                print('Monster: Apex Zinogre, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Ice, Breakable Parts: Head, Back, Legs, and tail')'
+                print('Rare Materials: Zinogre Plate, Zinogre Ruby')
     if(Monster == 'Magnamalo'):
         Variant=input('Magnamalo, Scorned')
         if(Variant == 'Magnamalo'):
                 print('Monster: Magnamalo, Elements: None, Aliments: Blast-Fireblight, Weaknesses: Water, Breakable Parts: Head, Back, Scutes, and tail')
+                print('Rare Materials: Magnamalo Plate, Purple Magna Orb, Magnamalo Orb')
         if(Variant == 'Scorned Magnamalo' or Variant in 'Scorned'):
                 print('Monster: Magnamalo, Elements: None, Aliments: Blast-Fireblight, Weaknesses: Water, Breakable Parts: Head, Back, Scutes, and tail')
     if(Monster == 'Lunagaron'):
@@ -70,6 +77,7 @@ if(Monster_Class == 'Brute Wyvern' or Monster_Class in 'Brute'):
             print('Monster: Barroth, Elements: Water, Aliments: Waterblight, Muddy, Weaknesses: Water(Mud) Fire(No Mud), Breakable Parts: Head, Back, Arms, and tail')
     if(Monster == 'Anjanath'):
             print('Monster: Anjanath, Elements: Fire, Aliments: Fireblight, Weaknesses: Water, Breakable Parts: Head, Legs, and tail')
+            print('Rare Materials: Anjanath Plate, Anjanath Gem, Anjanath Mantle')
 if(Monster_Class == 'Bird Wyvern' or Monster_Class in 'Bird'):
     Monster=input('Great Izuchi, Great Baggi, Great Wroggi, Kulu-Ya-Ku, Aknosom, Pukei-Pukei')
     if(Monster == 'Great Izuchi'):
@@ -94,8 +102,10 @@ if(Monster_Class == 'Levianths'):
         Apex=input('Base, Apex')
         if(Apex == 'Base'):
             print('Monster: Mizutsune, Elements: Water, Aliments: Waterblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
+            print('Rare Materials: Mizutsune Plate, Mizutsune Ruby, Mizutsune Mantle')
         if(Apex == 'Apex'):
             print('Monster: Apex Mizutsune, Elements: Water, Aliments: Waterblight, Fire-Blastblight, Bubble, Weaknesses: Thunder, Breakable Parts: Head, Front Legs, and tail')
+            print('Rare Materials: Mizutsune Plate, Mizutsune Ruby')
     if(Monster == 'Somnacanth'):
         Subspecies=input('Base or Aurora')
         if(Subspecies == 'Base'):
@@ -153,9 +163,9 @@ if(Monster_Class == 'Temnoceran'or Monster_Class in 'Temnoceran'):
     if(Monster == 'Rakna-Kadaki'):
         Subspecies=input('Base or Pyre')
         if(Subspecies == 'Base'):
-                print('Monster: Rakna-Kadaki, Elements: Fire, Aliments: Fireblight, Webbed, Weaknesses: Ice, Breakable Parts: Head, Legs, and Adadomen')
+                print('Monster: Rakna-Kadaki, Elements: Fire, Aliments: Fireblight, Webbed, Weaknesses: Ice, Breakable Parts: Head, Claws Legs, and Abdomen')
         if(Subspecies == 'Pyre'):
-                print('Monster: Pyre Rakna-Kadaki, Elements: Fire, Aliments: Fireblight, Blastblight, Webbed, Weaknesses: Water, Breakable Parts: Head, Legs, and Adadomen')
+                print('Monster: Pyre Rakna-Kadaki, Elements: Fire, Aliments: Fireblight, Blastblight, Webbed, Weaknesses: Water, Breakable Parts: Head, Claws, Legs, and Abdomen')
 if(Monster_Class == 'Elder Dragons'):
     Monster=input('Chameleos, Kushala Doara, Teostra, Ibushi, Narwa, Crimson Glow Valstrax, Shaguru Magala, Malzeno')
     if(Monster == 'Chameleos'):
