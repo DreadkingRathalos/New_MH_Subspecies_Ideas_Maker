@@ -6,8 +6,12 @@ if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
     if(Monster == 'Rathian'):
             Apex=input('Base, Apex')
             if(Apex == 'Base'):
-                print('Monster: Rathian, Elements: Fire, Aliments: Fireblight, Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')
-                print('Rare Materials: Rathian Plate, Rathian Ruby, Rathian Mantle')
+                Monster_Name = 'Monster: Rathian'
+                Elements = 'Elements: Fire' 
+                Aliments = 'Aliments: Fireblight, Poison'
+                Weaknesses ='Weaknesses: Dragon'
+                Breakable_Parts = 'Breakable Parts: Head, Back, Wings, and tail'
+                Rare Materials = 'Rare Materials: Rathian Plate, Rathian Ruby, Rathian Mantle'
             if(Apex == 'Apex'):
                 print('Monster: Apex Rathian, Elements: Fire, Aliments: Fireblight, Poison, Deadly Poison, Weaknesses: Dragon, Breakable Parts: Head, Back, Wings, and tail')    
                 print('Rare Materials: Rathian Plate, Rathian Ruby')
@@ -243,3 +247,9 @@ if(Monster_Class == 'Others'):
     if(Monster == 'Gore Magala'):
             print('Monster: Gore Magala, Elements: None, Aliments: Frenzy, Weaknesses: Fire, Breakable Parts: Head, Feelers, Wingarms, and tail')
             print('Rare Materials: Gore Mantle')
+print('{Monster_Name}')
+print('{Elements}')
+print('{Aliments}')
+print('{Weaknesses}')
+print('{Breakable_Parts}')
+print('{Rare_Materials}')
