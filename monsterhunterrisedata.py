@@ -2,7 +2,7 @@
 print('Welcome, what monster class are you looking for?')
 Monster_Class=input('Flying Wyvern, Fanged Wyvern, Brute Wyvern, Bird Wyvern, Piscine Wyvern, Levianths, Fanged Beasts, Amphians, Carapaceons, Elder Dragons, Other')
 if(Monster_Class == 'Flying Wyvern'or Monster_Class in 'Flying'):
-    Monster=input('Rathian, Rathalos, Basrios,Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas')
+    Monster=input('Rathian, Rathalos, Basrios, Khezu, Nargacuga, Tigrex, Diablos, Barioth, Bazelgeuse, Espinas')
     if(Monster == 'Rathian'):
             Apex=input('Base, Apex')
             if(Apex == 'Base'):
