@@ -231,22 +231,46 @@ if(Monster_Class == 'Elder Dragons'):
             print('Monster: Narwa the Allmother, Elements: Thunder, Aliments: Thunderblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
             print('Rare Materials: Orb of Orgin, Mantle of Orgin')
     if(Monster == 'Crimson Glow Valstrax' or Monster in 'Valstrax'):
-        print('Monster: Crimson Glow Valstrax, Elements: Dragon, Aliments: Dragonblight, Weaknesses: Fire/Water/Thunder/Ice, Breakable Parts: Head, Wings, Back and tail')
-        print('Rare Materials: Valstrax Gem, Valstrax Mantle')
+            Monster_Name = 'Monster: Crimson Glow Valstrax'
+            Elements = 'Elements: Dragon'
+            Aliments = 'Aliments: Dragonblight' 
+            Weaknesses = 'Weaknesses: Fire/Water/Thunder/Ice' 
+            Breakable_Parts = 'Breakable Parts: Head, Wings, Back and tail'
+            Rare_Materials = 'Rare Materials: Valstrax Gem, Valstrax Mantle, Elder Dragon Gem'
+            print('Monster: , Elements: Dragon, Aliments: Dragonblight, Weaknesses: , Breakable Parts: ')
+            print('Rare Materials: Valstrax Gem, Valstrax Mantle')
     if(Monster == 'Shaguru Magala' or Monster in 'Shaguru'):
+            Monster_Name = 'Monster: Shaguru Magala'
+            Elements = 'Elements: None'
+            Aliments = 'Aliments: Frenzy' 
+            Weaknesses = 'Weaknesses: Dragon' 
+            Breakable_Parts = 'Breakable Parts: Head, Wingarms, and tail'
+            Rare_Materials = 'Rare Materials: Gore Mantle'
             print('Monster: Shaguru Magala, Elements: None, Aliments: Frenzy, Weaknesses: Dragon, Breakable Parts: Head, Wingarms, and tail')
             print('Rare Materials: Shaguru Mantle')
     if(Monster == 'Malzeno'):
-            print('Monster: Malzeno, Elements: Dragon, Aliments: Dragonblight, Bloodblight, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
-            print('Rare Materials: Malzeno Bloodstone')
+            Monster_Name = 'Monster: Malzeno'
+            Elements = 'Elements: 'Dragon
+            Aliments = 'Aliments: Dragonblight, Bloodblight' 
+            Weaknesses = 'Weaknesses: Dragon' 
+            Breakable_Parts = 'Breakable Parts: Head, Wings, and tail'
+            Rare_Materials = 'Rare Materials: Malzeno Bloodstone'
     if(Monster == 'Gaismagorm'):
-            print('Monster: Gaismagorm, Elements: None, Aliments: Quiro, Weaknesses: Dragon, Breakable Parts: Head, Wings, and tail')
-            print('Rare Materials: Abyssal Dragonspire')
+            Monster_Name = 'Monster: Gaismagorm'
+            Elements = 'Elements: None'
+            Aliments = 'Aliments: Bloodblight' 
+            Weaknesses = 'Weaknesses: Dragon' 
+            Breakable_Parts = 'Breakable Parts: Head, Wings, and tail'
+            Rare_Materials = 'Rare Materials: Abyssal Dragonspire'
 if(Monster_Class == 'Others'):
     Monster=input('Gore Magala')
     if(Monster == 'Gore Magala'):
-            print('Monster: Gore Magala, Elements: None, Aliments: Frenzy, Weaknesses: Fire, Breakable Parts: Head, Feelers, Wingarms, and tail')
-            print('Rare Materials: Gore Mantle')
+            Monster_Name = 'Monster: Gore Magala'
+            Elements = 'Elements: None'
+            Aliments = 'Aliments: Frenzy' 
+            Weaknesses = 'Weaknesses: Fire' 
+            Breakable_Parts = 'Breakable Parts: Head, Feelers, Wingarms, and tail'
+            Rare_Materials = 'Rare Materials: Gore Mantle'
 print('{Monster_Name}')
 print('{Elements}')
 print('{Aliments}')
